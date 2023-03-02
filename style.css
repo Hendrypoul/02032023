@@ -1,0 +1,48 @@
+.score {
+    width: 100%;
+    background-color: black;
+    height: 70px;
+}
+.game {
+    width: 400px;
+    height: 90vh;
+    position: relative;
+    background-color: black;
+    margin: auto;
+}
+.start {
+    background-color: red;
+    padding: 20px;
+    color: white;
+    height: 150px;
+    width: 600px;
+    position: absolute;
+    margin-left:28%;
+    margin-top: 32px;
+    z-index: 1;
+    text-align: center;
+}
+.hide {
+    display: none;
+}
+.car {
+    background-image: url("data:image/jpeg;base64,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");
+    background-color: red;
+    height: 100px;
+    width: 70px;
+    position: absolute;
+    bottom: 0;
+}
+.line {
+    background-color: white;
+    height: 100px;
+    position: absolute;
+    margin-left: 47%;
+    width: 10px;
+}
+.enemy {
+    position: absolute;
+    height: 100px;
+    width: 70px;
+    background-color: green;
+}
